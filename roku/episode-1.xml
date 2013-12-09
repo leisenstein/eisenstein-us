@@ -1,0 +1,17 @@
+<feed>
+	<item sdImg="http://www.eisenstein.us/images/roku/chem1-sd.jpg" hdImg="http://www.eisenstein.us/images/roku/chem1-hd.jpg">
+		<title>Chemistry 101 Class: More information Here</title>
+		<contentId>805</contentId>
+		<contentType>Talk</contentType>
+		<contentQuality>SD</contentQuality>
+		<streamFormat>mp4</streamFormat>
+		<media>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>512</streamBitrate>
+			<streamUrl>https://archive.org/download/HampshireLinuxUserGroupLinuxtrainingandhowtoprepare/training_512kb.mp4
+			</streamUrl>
+		</media>
+		<synopsis/>
+		<publish_date>2013-11-10</publish_date>
+	</item>
+</feed>

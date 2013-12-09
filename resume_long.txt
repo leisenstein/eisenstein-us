@@ -1,0 +1,52 @@
+Larry Eisenstein
+Phone (770) 381-0360
+LEisenstein1@student.gsu.edu
+http://www.eisenstein.us/resume.html
+
+EDUCATION
+Georgia State University, 				   Atlanta, GA 						August, 2006
+         Computer Science (Magna Cum Laude)
+         National Dean’s List, Golden Key Honour Society, ACM Member
+Certifications: SCJP, Comptia A+ Technician, MCSE (NT4), MCP (2003)
+
+EXPERIENCE
+
+12/2009  - Present
+Software Developer				Piedmont Hospital					Atlanta, GA
+Created .NET web applications for MojoPortal CMS.  Maintained QA, DEV and PROD websites for MojoPortal and developed database procedures to automate pulling data from MojoPortal.  Setup new DotNetNuke portal and migrated existing MojoPortal applications.  Created database scripts to migrate users, roles, and custom properties to DNN. Fixed bugs and developed portlets for Physician CIT portal using Java, Groovy, and Grails.  Created and maintained existing ETL processes for data warehouse and kept physician, patient and clinic data from sources such as EDI 837P 4010 and 5010 files, CSV files, NSF files, and NextGen databases.  Assisted physicians and practice managers in calculating CMS PQRS scores and Press Ganey Patient Satisfaction scores that were being displayed in the CIT portal.  Server projects I setup for Piedmont include: wiki (Atlassian Confluence), SVN, SFTP server, and Hudson CI server.
+
+10/2006 – 11/2009
+.NET Programmer				Elavon							Atlanta, GA
+Created web apps for intranet portal using VB.NET & ASP.NET to generate reports from  SQL Server 2000/2005 databases.  Wrote custom C# applications to automate XML and report file processing and saved hours of manual data entry.  Supported and updated document management intranet application to store, retrieve, and update legal documents in PDF format.  Supported internal compensation system and created stored procedures to calculate compensation pay for sales people using SQL Server 2005 back-end.  Responsible for web portal support and portal administration, including end user support.  Maintained and supported Lead Referral site written on DotNetNuke platform with SQL 2005 and SQL Reporting Services back-end.
+
+5/2006 – 10/2006
+Java Programmer (Contract)	BlueLinx (Georgia Pacific’s Building Material Division)		    	Marietta, GA
+Fixed bugs in existing Java Swing applet and added new deck design capabilities through the GUI and passed these new modifications to the C# web service via XML.  Kept source code updated in Visual Source Safe.  Created sequence diagrams and Gantt charts for data conversion process.  Migrated deck building Java applet, C# web service, and C++ 3D graphics software from 3rd party hosting company to BlueLinx servers.  Set up internal development server to run IIS, ASP.NET, and .NET Framework 2.0, then wrote test scripts for QA testing.  
+
+12/2004 – 4/2006
+Support Technician (Contract/Co-op)		Georgia Pacific				         		Atlanta, GA
+Wrote VB6 apps to automate user database imports.  Wrote VB.NET web pages to export database XML files and display user database reports for auditing.  Used HTML and CSS to design support group’s internal web portal.  Supported remote users via telephone, email, and remote access software.  Supported payroll administrators using Kronos Timekeeper and Kronos Workforce Central with time entry, reporting, and system access problems.
+
+7/2003-11/2004				Atlanta Journal-Constitution			         		Atlanta, GA
+Helpdesk Support Technician 
+Worked on thin client/Citrix solutions to integrate with Divine predictive dialer.  Supported local and remote users via telephone, email, and remote access software.  Resolved PC and network connectivity issues.  Managed domain shares, created users/groups in AD, and set user/group access permissions to necessary shares.
+ 
+10/2000-05/2003			Divine, Inc. (eShare/Melita) 			      		Norcross, GA
+Field Service Engineer
+Traveled in the U.S. and Canada installing, upgrading, and repairing Divine predictive dialers.  Dialer system consists of Windows NT system containing telephony cards and AIX server housing the system software and Sybase database.  Trained customer reps and administrators on how to use the system to its full potential.  Used Crystal Reports to create system productivity reports.
+
+4/99-10/2000				    Trinity Technologies			    			Norcross, GA
+Network Engineer
+Provided network consultation and administration for customer base.  Built and maintained Exchange, IIS, and backup servers. Converted Windows NT networks to Windows 2000. Performed administration duties on small and medium size networks with Windows NT/2000 server, Exchange server, IIS 4, Proxy, and SQL Server.
+
+4/98-4/99				       FundTech, Inc.				      		Norcross, GA
+QA Tester (Contract)
+Worked on a Quality Assurance team to get their software Y2K certified.  Identified problems that were occurring as related to Y2K date issues in the software.  Developed formalized test plans and documentation for distribution to customers. 
+
+SKILL SETS:
+Software Development Experience
+Professional Experience:  :  VB.Net, C#, Java, Groovy, Grails, MojoPortal, DotNetNuke, Javascript, Perl & Korn shell scripting, SQL , XML, MVC, GORM(Hibernate using Groovy)
+         Some Knowledge:  SQL Server Reporting Services, Entity Framework, C in Linux
+Operating Systems: 
+         DOS, Windows NT 4 Workstation and Server, Windows XP Pro, Windows Vista, Windows 7  
+         Windows 2000/2003/2008 Server, IBM AIX 4.2, Linux (Fedora)

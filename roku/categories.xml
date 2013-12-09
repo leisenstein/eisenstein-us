@@ -1,0 +1,6 @@
+<categories>
+	<category title="CHEM 1" description="Chemistry 1" sd_img="pkg:/images/chem1_sd.jpg" 	hd_img="pkg:/images/chem1_hd.jpg">
+	</category>
+	<category title="CHEM 2" description="Chemistry 2" sd_img="pkg:/images/chem2_sd.jpg" 	hd_img="pkg:/images/chem2_hd.jpg">
+	</category>
+</categories>

@@ -1,0 +1,17 @@
+body {
+	background-color: #090909;
+	color: #ccc;
+}
+
+.container {
+	/*background-color: #222;*/
+	
+}
+
+@font-face {
+    font-family: "ChineseTakeaway";
+    src: url(../fonts/ChineseTakeaway.ttf) format("truetype");
+}
+h1.ChineseTakeaway { 
+    font-family: "ChineseTakeaway", Verdana, Tahoma;
+}

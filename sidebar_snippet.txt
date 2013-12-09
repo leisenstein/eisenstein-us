@@ -1,0 +1,28 @@
+sidebar snippet
+
+<section id="sidebar" class="col-md-3 visible-md visible-lg">
+ 		<p class="sideBarTitle">Software Projects</p>
+			<ul style="list-style: none; ">
+				<li><a href="images/ales.jpg" rel="lightbox[ales]">› <b>ALES (Java)</b></a>
+				<li><a href="images/kronosxml.jpg" rel="lightbox[kronos]" title="Kronos XML in VB.NET">› <b>Kronos XML (VB.NET)</b></a>
+				<li><a href="images/accessaudit.jpg" rel="lightbox[kronos]" title="Kronos Access Audit using VB.NET">› <b>Kronos Access Audit</b></a>
+				<li><a href="images/caesar.jpg" rel="lightbox[cc]" title="Caesar Cipher">› <b>Cipher (Swing)</b></a>
+				<li><a href="images/caesar1.jpg" rel="lightbox[cc]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Caesar 1</a>
+				<li><a href="images/caesar2.jpg" rel="lightbox[cc]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Caesar 2</a>
+				<li><a href="images/caesar3.jpg" rel="lightbox[cc]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Caesar 3</a>
+				<li><a href="images/caesar4.jpg" rel="lightbox[cc]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Caesar 4</a>
+				<li><a href="images/caesar5.jpg" rel="lightbox[cc]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Caesar 5</a>
+				<li><a href="images/rssreader.jpg" rel="lightbox[rss]" title="RSS Reader using C#">› <b>RSS Reader (C#)</b> </a>
+				<li><a href="images/client.jpg" rel="lightbox[socket]" title="Network Sockets using C">› <b>Linux Sockets (C)</b> </a>
+				<li><a href="images/client1.jpg" rel="lightbox[socket]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Client</a>
+				<li><a href="images/ethereal1.jpg" rel="lightbox[socket]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Ethereal</a>
+				<li><a href="images/iq1.jpg" rel="lightbox[deck]" title="Deck Builder">› <b>Deck Builder (Swing)</b></a>
+				<li><a href="images/shape2.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Shape</a>
+				<li><a href="images/mod3.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Mod</a>
+				<li><a href="images/stairs4.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Stairs</a>
+				<li><a href="images/railing5.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Railing</a>
+				<li><a href="images/decking6.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Decking</a>
+				<li><a href="images/attach7.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Attachment</a>
+				<li><a href="images/final8.jpg" rel="lightbox[deck]" title="MouseOver Image to Goto Next, then Click Close">&nbsp;&nbsp;» Final JPG</a></li>
+			</ul>
+  	</section>

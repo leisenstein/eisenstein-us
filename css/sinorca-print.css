@@ -1,0 +1,242 @@
+/************************************
+ * TITLE: Sinorca Print Stylesheet  * 
+ * URI  : sinorca/sinorca-print.css *
+ * MODIF: 2003-May-01 19:30 +0800   *
+ ************************************/
+
+
+/* ##### Common Styles ##### */
+
+body {
+  color: black;
+  background-color: white;
+  font-family: "times new roman", times, roman, serif;
+  font-size: 12pt;
+  margin: 0;
+  padding: 0;
+}
+
+acronym, .titleTip {
+  font-style: italic;
+  border-bottom: none;
+}
+
+acronym:after, .titleTip:after {  /* Prints titles after the acronyms/titletips. Doesn't work in MSIE */
+  content: "(" attr(title) ")";
+  font-size: 90%;
+  font-style: normal;
+  padding-left: 1ex;
+}
+
+.doNotPrint {
+  display: none !important;
+}
+
+
+/* ##### Header ##### */
+
+#header {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.superHeader {
+  display: none;
+}
+
+.headerTitle {
+  color: black;
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 200%;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0 0.5ex 0;
+}
+
+.subHeader {
+  display: none;
+}
+
+
+/* ##### Side Bar ##### */
+
+#side-bar {
+  display: none;
+}
+
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+#main-copy h1 {
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 120%;
+  margin: 2ex 0 1ex 0;
+  padding: 0;
+}
+
+#main-copy a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#main-copy a:after {  /* Prints the links' URIs after the links' texts. Doesn't work in MSIE */
+  content: "<" attr(href) ">";
+  font-size: 90%;
+  padding-left: 1ex;
+}
+
+p {
+  margin: 0 0 2ex 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+dd {
+  margin: 0 0 2ex 1.5em;
+  padding: 0;
+}
+
+.topOfPage {
+  display: none;
+}
+
+
+/* ##### Footer ##### */
+
+#footer {
+  margin: 2em 0 0 0;
+  padding: 1ex 0 0 0;
+  border-top: 1px solid black;
+}
+
+#footer a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Lightbox 2.02 CSS Page */
+#lightbox{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url(../images/blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	}
+	
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}	
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/piedmont.mobile.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/mobile/latest/jquery.mobile.js"></script>
+        <title>CIT</title>
+
+
+    	<script type=text/javascript>
+    		$(document).ready(function(){
+    			$("#Home").click(function(c) {
+    				$.getJSON('http://locator.aids.gov/data?zip=30047',
+    					function(data) {
+    						$('#TestMe').html(data.updated);
+    					});
+    			});
+    		});
+    		
+    	</script>
+
+
+    </head>
+    <body>
+
+        <div data-role="header">
+        	<img src="img/piedmontclinic-127x41.gif">
+        	<div data-role="navbar">
+        		<ul>
+        			<li><a href="#">Home</a></li>
+        			<li><a href="#">Physician</a></li>
+        			<li><a href="#">Practice</a></li>
+        		</ul>
+        	</div>
+        </div>
+        
+        
+        <div id="Home">
+        	
+        		<table width="100%" >
+        		    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="150px">
+                        <td style="font-weight: bold">Provider Grade</td>
+                        <td ><img src="img/aplus-128.png"</td>
+                    </tr>
+                    
+        		    
+        		    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">Last File Received</td>
+                        <td id="TestMe"></td>
+        		    </tr>
+        		    
+        		    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">Claims Summary</td>
+                        <td>47 Claims in Past 35 days</td>
+                    </tr>
+                    
+                    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">Qualified Claims</td>
+                        <td>18 Denom Qualified Claims</td>
+                    </tr>
+                    
+                    
+        		    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">CPT2 Summary</td>
+                        <td>4 Claims with CPT2 codes</td>
+                    </tr>
+                    
+                    
+        		    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">System Risk Summary</td>
+                        <td >SOME KIND OF SYS RISK SUMMARY</td>
+                    </tr>
+                    
+        		    
+        		    
+        		    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">PQRS Summary</td>
+                        <td>TOP 3 Average</td>
+                    </tr>
+                    
+                    <tr bgcolor="#1d1d1b" style="color: #c5c5c4" height="40px">
+                        <td style="font-weight: bold">Good Citizenship Summary</td>
+                        <td>$450</td>
+                    </tr>
+                    
+                    
+                    
+        		    
+        		</table>
+        </div>
+        
+        
+        
+        
+        
+    </body>
+</html>
